@@ -6,9 +6,12 @@
 
 请在您的 Debian / Ubuntu 服务器终端中，直接执行以下一键优化指令：
 
+**方式一：使用 curl**
 ```bash
-# 方式一：使用 curl
 bash <(curl -Ls https://raw.githubusercontent.com/mimicatcn/mimi/main/smart.sh)
+```
 
-# 方式二：如果服务器没有 curl，可以使用 wget
+**方式二：如果服务器没有 curl，可以使用 wget**
+```bash
 bash <(wget -qO- https://raw.githubusercontent.com/mimicatcn/mimi/main/smart.sh)
+```
