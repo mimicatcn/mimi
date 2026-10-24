@@ -1887,7 +1887,7 @@ auto_shortcut() {
     local target="/usr/local/bin/mimi"
     local src="${BASH_SOURCE[0]:-$0}"
     # 兜底下载源（仅当本地源文件找不到时用；curl|bash 在脚本开头已被 exit 1，到不了这里）
-    local script_url="https://raw.githubusercontent.com/mimicatcn/mimi/main/kernel-smart.sh"
+    local script_url="https://raw.githubusercontent.com/mimicatcn/mimi/main/smart.sh"
     local tmp_install="" install_source=""
     local install_ok=0
     local src_real=""
